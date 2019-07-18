@@ -11,7 +11,7 @@ class MP3Importer
     files = Dir["./spec/fixtures/mp3s/*.mp3"]
     files.each do |filename|
       path_name = filename.slice!("./spec/fixtures/mp3s/")
-      puts filename
+      filename
     end
   end
 
