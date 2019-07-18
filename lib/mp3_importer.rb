@@ -12,6 +12,7 @@ class MP3Importer
     files.each do |filename|
       path_name = filename.slice!("./spec/fixtures/mp3s/")
       filename
+      binding.pry
     end
   end
 
