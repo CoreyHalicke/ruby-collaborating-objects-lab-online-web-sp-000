@@ -13,7 +13,6 @@ class MP3Importer
       path_name = filename.slice!("./spec/fixtures/mp3s/")
       filename
     end
-    binding.pry
   end
 
   def import
